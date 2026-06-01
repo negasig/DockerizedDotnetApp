@@ -16,6 +16,9 @@ namespace DockerizedApp.Controller
         {
              return Ok("Test Api Docker");
         }
-
+        public ActionResult<string> Register()
+        {
+            return Ok("Register successfully");
+        }
     }
 }
