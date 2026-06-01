@@ -16,6 +16,11 @@ namespace DockerizedApp.Controller
         {
              return Ok("Test Api Docker");
         }
+        [HttpGet("login")]
+        public ActionResult<string> Login()
+        {
+            return Ok("Test Login");
+        }
 
     }
 }
