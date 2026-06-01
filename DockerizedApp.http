@@ -1,0 +1,6 @@
+@DockerizedApp_HostAddress = http://localhost:5074
+
+GET {{DockerizedApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
