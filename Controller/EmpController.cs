@@ -22,5 +22,9 @@ namespace DockerizedApp.Controller
             return Ok("Test Login");
         }
 
+        public ActionResult<string> Register()
+        {
+            return Ok("Register successfully");
+        }
     }
 }
