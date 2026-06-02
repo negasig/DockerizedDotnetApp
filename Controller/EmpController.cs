@@ -26,5 +26,9 @@ namespace DockerizedApp.Controller
         {
             return Ok("Register successfully");
         }
+        public ActionResult<string> save()
+        {
+            return Ok("Saved successfully");
+        }
     }
 }
